@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0; 
+    margin-top: 20px;
+}
+
+.container {
+    background-color: white;
+
+    max-width: 920px;
+    margin: 20px auto;
+    width: 90%;
+
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+
+    font-family: 'Fira Code';
+}
+
+.badge {
+    text-align: center;
+    background-color: #ececec;
+    padding: 10px 0;
+}
+
+.badge > h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.badge > input {
+    width: 60%;
+    border: 3px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.book_list {
+    color: #3f3f3f;
+}
+
+.book_list > .title {
+    margin-left: 30px;
+}
+
+
+.book_list > ul {
+    list-style: none;
+}
+
+.book_list li {
+    padding: 20px 10px;
+    margin: 20px 10px;
+    font-size: 18px;
+    border-left: 4px solid #c5c5c5 ;
+}
+
+.book_list li:hover {
+    border-left: 4px solid #6de5fa;
+}
+
+.delete {
+    background: #6de5fa;
+    padding: 5px;
+    border-radius: 8px;
+    float: right;
+    cursor: pointer;
+    color: white;
+}
+
+.delete:hover,
+.delete:active {
+    color: #ffffff;
+    background: rgb(98, 98, 98);
+}
+
+#add-book {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#add-book > input {
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+}
+
+#add-book button {
+    border: 2px solid #6de5fa;
+    border-left-color: #6de5fa;
+    border-left-style: solid;
+    border-left-width: 1px;
+    background: #6de5fa;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+}
+
+#add-book button:hover,
+#add-book button:active {
+    cursor: pointer;
+}

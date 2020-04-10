@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Dank Mono';
+    src: url('/assets/fonts/Dank-Mono-Italic.otf');
+}
+
+body {
+    margin: 0;
+}
+
+/* header-start */
+
+.main-header {
+    width: 100%;
+    background-color: #E84C41;
+    font-family: 'Dank Mono';
+    padding: 8px 10px;
+}
+
+.main-header > div {
+    font-weight: bold;
+    font-size: 32px;
+    display: inline-block;
+}
+
+.main-header > div > a {
+    color: #ffddbb;
+    text-decoration: none;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 169px);
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main-nav_items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item > a {
+    text-decoration: none;
+    color: #ffddbb;
+    padding: 3px 0;
+}
+
+.main-nav__item > a:hover,
+.main-nav__item > a:active {
+    border-bottom: 3px solid #54FFE3;
+}
+
+.main-nav__item--cta a {
+    background: #FFAA54;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.main-nav__item--cta > a:hover,
+.main-nav__item--cta > a:active {
+    border: none;
+    background: white;
+    color: #FFAA54;
+    border-radius: 5px;
+}
